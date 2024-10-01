@@ -3,7 +3,8 @@
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
-    "baseBranches": []
+    "baseBranches": [],
+    "enableIaC": true
   },
   "scanSettingsSAST": {
     "enableScan": true,
@@ -23,7 +24,8 @@
   },
   "issueSettings": {
     "minSeverityLevel": "LOW",
-    "issueType": "DEPENDENCY"
+    "issueType": "DEPENDENCY",
+    "iacIssues": true
   },
   "issueSettingsSAST": {
     "minSeverityLevel": "high",
